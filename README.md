@@ -1,0 +1,1 @@
+Class archive (check type, prepare, list_dir and extract)
