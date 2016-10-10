@@ -1,4 +1,4 @@
-Class for use archive
+Class archive (check type, prepare, list_dir and extract)
 
 =======
 Install
