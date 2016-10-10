@@ -8,15 +8,13 @@ import os
 from pyunpack import Archive
 
 
-EXTRACT_DIR = '/path/'
-
-
 # use archive file
 class ArchiveFile:
 
     # init filename
-    def __init__(self, filename):
+    def __init__(self, filename, extract_dir):
         self.filename = filename
+        self.extract_dir = extract_dir
 
     # get type archive
     def type(self):
